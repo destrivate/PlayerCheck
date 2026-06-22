@@ -36,12 +36,10 @@ A powerful, lightweight player inspection (cheat check) plugin for Minecraft **1
 
 ```yaml
 # Default configuration example
-messages:
-  prefix: "&7[&4Revise&7] &r"
-  start-checking: "&cYou are under review! Follow staff instructions."
-  stop-checking: "&aCheck finished. Thank you for cooperation."
-  cannot-break: "&cYou cannot break blocks during the inspection!"
-  cannot-damage: "&cYou cannot deal or take damage right now!"
+on-check:
+  - "&cВы на проверке"
+  - "Наш дс"
+  - "Связь с модератором /cc"
 ```
 
 ---
