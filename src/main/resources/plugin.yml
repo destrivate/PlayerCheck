@@ -1,0 +1,8 @@
+name: PlayerCheck
+version: 1.0
+main: ru.dev.Main
+api-version: '1.16'
+author: destrivate
+commands:
+  revise:
+    description: Main Command
