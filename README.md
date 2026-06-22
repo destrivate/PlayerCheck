@@ -17,9 +17,9 @@ A powerful, lightweight player inspection (cheat check) plugin for Minecraft **1
 
 | Command | Description | Permission |
 | :--- | :--- | :--- |
-| `/revise <player> start` | Start the cheat check process. | `revise.admin` |
-| `/revise <player> stop` | Finish the check and unfreeze player. | `revise.admin` |
-| `/cc <message>` | Send a message to the private inspection chat. | `revise.chat` |
+| `/revise <player> start` | Start the cheat check process. | `playercheck.use` |
+| `/revise <player> stop` | Finish the check and unfreeze player. | `playercheck.use` |
+| `/cc <message>` | Send a message to the private inspection chat. | `playercheck.use` |
 
 ---
 
@@ -48,4 +48,4 @@ messages:
 
 ## 💻 Compatibility
 * **Core:** Paper, Spigot, Bukkit.
-* **Versions:** 1.16.5, 1.17+, 1.18+, 1.19+, 1.20+
+* **Versions:** 1.16.5, 1.17+, 1.18+, 1.19+, 1.20+ , 1.21+
